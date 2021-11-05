@@ -21,6 +21,7 @@ public class ColourSelector extends JPanel {
                 currentColour= newColour;
                 btn1.setBackground(currentColour);
                 btn1.setOpaque(true);
+                btn1.setBorderPainted(false);
             }
         });
     }
